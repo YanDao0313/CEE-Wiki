@@ -1,27 +1,12 @@
 node_modules
-*.log
+*.iml
+.idea
+*.log*
 .nuxt
-nuxt.d.ts
-.output
-.env
-package-lock.json
-framework
-dist
+.vscode
 .DS_Store
-
-# Local History
-.history
-
-# VSCode
-.vscode/
-
-# Unlighthouse
-.unlighthouse
-
-# Starters lockfiles
-.starters/**/yarn.lock
-.starters/**/package-lock.json
-.starters/**/pnpm-lock.yaml
-
-test-results
-.pnpm-store
+coverage
+dist
+sw.*
+.env
+.output
